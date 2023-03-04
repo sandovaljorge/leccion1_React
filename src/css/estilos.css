@@ -6,3 +6,29 @@
     padding: 10px;
     margin: 8px;
 }
+
+.footer{
+    background-color: black;
+    color: white;
+
+}
+
+.boton{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 8px;
+}
+
+.btn{
+    background-color: gray;
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 8px;
+}

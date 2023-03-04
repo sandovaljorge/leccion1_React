@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './css/estilos.css';
 import Usuarios from './components/Usuarios'
+import Footer from './components/Footer';
+import Boton from './components/Boton'
 
 const App = () => {
     
@@ -38,8 +40,15 @@ const App = () => {
             <Usuarios></Usuarios>    
         </>*/
         <>
-        {session ? <Usuarios/> : 
-            <h1 className='titulo'>Debes iniciar session</h1>}
+        {session ? 
+            <>
+                <Usuarios/> 
+                <Footer/>
+            </>: 
+            <><h1 className='titulo'>Debes iniciar session</h1>
+            <Boton></Boton>
+            <Footer/>
+            </>}
         </>
         )
         
